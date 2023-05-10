@@ -51,13 +51,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const h1 = document.createElement('h1');
         smallContainer,append(h1);
         h1.style.textAlign = 'center';
-        h1.style.backgroundColor = `HSL(0, 0%, 100%)`;
+        h1.style.backgroundColor = `HSL(0, 0%, 100%`;
 
         h1.innerText = i;
         h1.style.margin = '0px';
         if(i%2==0){
             h1.style.backgroundColor = `HSL(0, 0%, 0%)`;
-            h1.style.color = `HSL(0, 0%, 100% )`;
+            h1.style.color = `HSL(0, 0%, 100% `;
 
         }
         if(i == 8){
